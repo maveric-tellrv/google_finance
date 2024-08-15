@@ -17,7 +17,7 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
 # Copy the Selenium test script into the container
-COPY googleFinancePage.py /app/googleFinancePage.py && 
+COPY googleFinancePage.py /app/googleFinancePage.py
 COPY test_googleFinancePage.py /app/test_googleFinancePage.py
 
 # Set the working directory
