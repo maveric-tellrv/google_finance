@@ -9,7 +9,6 @@ from selenium.webdriver.common.by import By
 class googleFinancePage:
     def __init__(self, driver):
         self.driver = driver
-        # PageFactory.init_elements(driver, self)
 
     @property
     def ul_element(self):
